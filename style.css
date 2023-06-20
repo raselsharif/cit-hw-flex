@@ -1,0 +1,69 @@
+.container {
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 10px;
+}
+
+.flexOne,
+.flexTwo,
+.flexThree,
+.flexFour,
+.flexFive,
+.flexSix,
+.flexSeven,
+.flexEight,
+.flexNine,
+.flexTen {
+    background: powderblue;
+    height: 300px;
+    width: 250px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.flexOne {
+    background: red;
+}
+
+.flexTwo {
+    background: blue;
+}
+
+.flexThree {
+    background: aqua;
+}
+
+.flexFour {
+    background: palevioletred;
+   flex-grow: 1;
+   border: 2px solid red;
+}
+
+.flexFive {
+    background: peru;
+}
+
+.flexSix {
+    background: firebrick;
+}
+
+.flexSeven {
+    background: gold;
+    
+}
+
+.flexEight {
+    background: yellowgreen;
+}
+
+.flexNine {
+    background: indigo;
+}
+
+.flexTen {
+    background: tomato;
+}
